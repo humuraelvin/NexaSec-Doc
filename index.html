@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaSec - Comprehensive Security Solution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">NexaSec</div>
+        <ul class="nav-links">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#tech-stack">Tech Stack</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#deployment">Deployment</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>NexaSec</h1>
+            <p>Comprehensive Security Solution v1.0.0</p>
+            <a href="#overview" class="cta-button">Learn More</a>
+        </div>
+    </header>
+
+    <section id="overview" class="section">
+        <div class="container" data-aos="fade-up">
+            <h2>Project Overview</h2>
+            <p>NexaSec is an advanced cybersecurity solution designed for threat detection, vulnerability assessment, and network security monitoring. It features a FastAPI backend and a Next.js frontend, providing businesses with real-time security insights and protection.</p>
+        </div>
+    </section>
+
+    <section id="features" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Real-time Threat Detection</h3>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-search"></i>
+                    <h3>Vulnerability Assessment</h3>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Network Security</h3>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI-powered Intelligence</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="architecture" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Architecture</h2>
+            <div class="architecture-grid">
+                <div class="arch-card" data-aos="fade-right">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>FastAPI-based RESTful API</li>
+                        <li>MongoDB with Motor</li>
+                        <li>WebSocket Integration</li>
+                        <li>Microservices Architecture</li>
+                    </ul>
+                </div>
+                <div class="arch-card" data-aos="fade-left">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Next.js 13+ with App Router</li>
+                        <li>React with TypeScript</li>
+                        <li>Real-time Visualization</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-stack" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card" data-aos="fade-up">
+                    <h3>Backend Technologies</h3>
+                    <ul>
+                        <li>Python 3.8+</li>
+                        <li>FastAPI 0.104.1</li>
+                        <li>MongoDB with Motor 3.3.1</li>
+                        <li>Uvicorn 0.24.0</li>
+                        <li>Python-Jose</li>
+                        <li>python-nmap</li>
+                        <li>aiohttp</li>
+                        <li>pytest</li>
+                        <li>WeasyPrint</li>
+                    </ul>
+                </div>
+                <div class="tech-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Frontend Technologies</h3>
+                    <ul>
+                        <li>Next.js 13+</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Chart.js</li>
+                        <li>Axios</li>
+                        <li>React Context</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="installation" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Installation Guide</h2>
+            <div class="installation-grid">
+                <div class="install-card" data-aos="fade-right">
+                    <h3>Backend Setup</h3>
+                    <pre><code>python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt</code></pre>
+                    <h4>Environment Configuration</h4>
+                    <pre><code>MONGODB_URL=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+JWT_ALGORITHM=HS256</code></pre>
+                </div>
+                <div class="install-card" data-aos="fade-left">
+                    <h3>Frontend Setup</h3>
+                    <pre><code>npm install</code></pre>
+                    <h4>Environment Configuration</h4>
+                    <pre><code>NEXT_PUBLIC_API_URL=http://localhost:8000</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="documentation" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Documentation</h2>
+            <div class="doc-grid">
+                <div class="doc-card" data-aos="fade-up">
+                    <h3>API Endpoints</h3>
+                    <h4>Authentication</h4>
+                    <ul>
+                        <li>POST /auth/login</li>
+                        <li>POST /auth/signup</li>
+                        <li>POST /auth/refresh</li>
+                        <li>POST /auth/logout</li>
+                    </ul>
+                    <h4>Vulnerability Management</h4>
+                    <ul>
+                        <li>GET /api/vulnerabilities</li>
+                        <li>POST /api/vulnerabilities/scan</li>
+                        <li>PATCH /api/vulnerabilities/{id}/status</li>
+                    </ul>
+                    <h4>Network Security</h4>
+                    <ul>
+                        <li>GET /api/network/devices</li>
+                        <li>POST /api/network/scan</li>
+                        <li>GET /api/network/threats</li>
+                    </ul>
+                </div>
+                <div class="doc-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Project Structure</h3>
+                    <pre><code>backend/
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── auth/
+│   ├── models/
+│   ├── routes/
+│   └── services/
+├── tests/
+├── requirements.txt
+└── .env
+
+frontend/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   ├── providers/
+│   ├── services/
+│   └── types/
+├── public/
+└── package.json</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="security" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Security Features</h2>
+            <div class="security-grid">
+                <div class="security-card" data-aos="fade-up">
+                    <h3>Authentication & Authorization</h3>
+                    <ul>
+                        <li>JWT-based authentication</li>
+                        <li>Role-based access control</li>
+                        <li>Token refresh mechanism</li>
+                        <li>Secure password hashing</li>
+                    </ul>
+                </div>
+                <div class="security-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Data Security</h3>
+                    <ul>
+                        <li>HTTPS enforcement</li>
+                        <li>CORS protection</li>
+                        <li>XSS prevention</li>
+                        <li>CSRF protection</li>
+                        <li>Rate limiting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="deployment" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Deployment Guide</h2>
+            <div class="deployment-grid">
+                <div class="deploy-card" data-aos="fade-up">
+                    <h3>Backend Deployment</h3>
+                    <ul>
+                        <li>Set up production environment</li>
+                        <li>Configure production database</li>
+                        <li>Set up SSL certificates</li>
+                        <li>Configure NGINX reverse proxy</li>
+                        <li>Set up monitoring and logging</li>
+                    </ul>
+                </div>
+                <div class="deploy-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Frontend Deployment</h3>
+                    <ul>
+                        <li>Build production bundle</li>
+                        <li>Configure CDN and caching</li>
+                        <li>Set up environment variables</li>
+                        <li>Enable compression and minification</li>
+                    </ul>
+                </div>
+                <div class="deploy-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Troubleshooting</h3>
+                    <ul>
+                        <li>Database Connection Issues</li>
+                        <li>Authentication Issues</li>
+                        <li>Performance Issues</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up">
+                    <img src="images/Saly Nelson Irasubiza.png" alt="Saly Nelson IRASUBIZA">
+                    <h3>Saly Nelson IRASUBIZA</h3>
+                    <p>Backend & Cybersecurity Developer</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/Elvin HUMURA.png" alt="Elvin HUMURA">
+                    <h3>Elvin HUMURA</h3>
+                    <p>Backend & Cybersecurity Developer</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/IRERE EMMANUEL.JPG" alt="Emmanuel IRERE">
+                    <h3>Emmanuel IRERE</h3>
+                    <p>AI Developer</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/Andre BYUKUSENGE.png" alt="Andre BYUKUSENGE">
+                    <h3>Andre BYUKUSENGE</h3>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/Esther Hope Uhirwe.png" alt="Esther Hope UHIRWE">
+                    <h3>Esther Hope UHIRWE</h3>
+                    <p>UI/UX Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Email: elvinhumura@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="https://nexasec-api-docs.com" target="_blank">API Documentation</a></li>
+                        <li><a href="https://github.com/nexasec" target="_blank">GitHub Repository</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <p>&copy; 2025 NexaSec. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
